@@ -9,6 +9,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
+    
 }
 img{
     width: 100%;
@@ -102,6 +103,43 @@ p{
 .last-contant p{
     margin-bottom: 20px;
 }
+/* the bonus section-01 start */
+.singlebox {
+    width: 140px;
+    background: white;
+    padding: 15px;
+    text-align: center;
+   
+    margin-right: 30px;
+    height: 265px;}
+    .sboxicon {
+        text-align: center;
+        font-size: 40px;
+        color: #fb5200;
+        margin: 30px 0px;
+    }
+    .sboxdesc {
+        text-align: center;
+        margin: 30px 0px;
+    }
+    
+    .singlebox{
+        border: 1px solid gray;
+        border-radius: 5px;
+        background-color: #fff;
+    }
+    .sboxwrapper{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    .singlebox:hover{
+        background-color: #973ead;
+        opacity: 1.5;
+    }
+/* the bonus section end */
+/* The bonus section-02 start */
+
 
 /* Footer  Style  Start  */
 .footer-div{
@@ -110,6 +148,7 @@ p{
  footer img{
      width: 50%;
  }
+ 
 
 
 /* Media Query Style Tablet */
@@ -117,6 +156,7 @@ p{
     .all-players{
         grid-template-columns: repeat(2, 1fr);
     }
+    
 }
 
 /* Media Query Style Mobile */
@@ -141,4 +181,22 @@ p{
     .last-contant{
         margin-bottom: 30px;
     }
+    .sboxwrapper{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: space-evenly;
+        
+        
+
+    }
+    .singlebox{
+        margin: 0 0 10px 10px;
+    }
+    
+
 }
+
+
+
+
+
